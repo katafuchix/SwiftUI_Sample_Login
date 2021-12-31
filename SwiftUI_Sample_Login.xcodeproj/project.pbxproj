@@ -11,6 +11,8 @@
 		3104F912277F7B8C00DC3FD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3104F911277F7B8C00DC3FD2 /* ContentView.swift */; };
 		3104F914277F7B8E00DC3FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3104F913277F7B8E00DC3FD2 /* Assets.xcassets */; };
 		3104F917277F7B8E00DC3FD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3104F916277F7B8E00DC3FD2 /* Preview Assets.xcassets */; };
+		3104F91E277F7C0F00DC3FD2 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3104F91D277F7C0F00DC3FD2 /* Views.swift */; };
+		3104F920277F7F9100DC3FD2 /* UIApplication+extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3104F91F277F7F9100DC3FD2 /* UIApplication+extended.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3104F911277F7B8C00DC3FD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3104F913277F7B8E00DC3FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3104F916277F7B8E00DC3FD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3104F91D277F7C0F00DC3FD2 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		3104F91F277F7F9100DC3FD2 /* UIApplication+extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+extended.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				3104F90F277F7B8C00DC3FD2 /* SwiftUI_Sample_LoginApp.swift */,
 				3104F911277F7B8C00DC3FD2 /* ContentView.swift */,
+				3104F91D277F7C0F00DC3FD2 /* Views.swift */,
+				3104F91F277F7F9100DC3FD2 /* UIApplication+extended.swift */,
 				3104F913277F7B8E00DC3FD2 /* Assets.xcassets */,
 				3104F915277F7B8E00DC3FD2 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3104F912277F7B8C00DC3FD2 /* ContentView.swift in Sources */,
+				3104F920277F7F9100DC3FD2 /* UIApplication+extended.swift in Sources */,
 				3104F910277F7B8C00DC3FD2 /* SwiftUI_Sample_LoginApp.swift in Sources */,
+				3104F91E277F7C0F00DC3FD2 /* Views.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
